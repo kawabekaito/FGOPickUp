@@ -1,0 +1,32 @@
+text {
+  user-select: none;
+}
+
+label {
+  user-select: none;
+}
+
+
+.checkbox-square {
+  width: 13px;
+  height: 13px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+
+.checkbox-square[value="Buster"] {
+  background-color: #a41818;
+}
+
+
+.checkbox-square[value="Arts"] {
+  background-color: #1640a3;
+}
+
+
+.checkbox-square[value="Quick"] {
+  background-color: #267815;
+}
+

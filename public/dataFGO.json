@@ -1,0 +1,834 @@
+[
+  {
+    "name": "沖田総司",
+    "days": "2023/5/12",
+    "class": "Saber",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "only"
+  },
+  {
+    "name": "ネロブライド",
+    "days": "2023/2/25",
+    "class": "Saber",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "only"
+  },
+  {
+    "name": "両儀式(剣)",
+    "days": "2022/8/3",
+    "class": "Saber",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "宮本武蔵",
+    "days": "2022/11/26",
+    "class": "Saber",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "アーサー",
+    "days": "2023/3/20",
+    "class": "Saber",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "シグルド",
+    "days": "2022/11/18",
+    "class": "Saber",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "紅閻魔",
+    "days": "2023/1/5",
+    "class": "Saber",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "only"
+  },
+  {
+    "name": "アストルフォ(剣)",
+    "days": "2023/1/7",
+    "class": "Saber",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "only"
+  },
+  {
+    "name": "伊吹童子",
+    "days": "2023/4/12",
+    "class": "Saber",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "千子村正",
+    "days": "2022/12/1",
+    "class": "Saber",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "水着沖田オルタ",
+    "days": "2022/8/21",
+    "class": "Saber",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "徴姉妹",
+    "days": "2022/4/6",
+    "class": "Saber",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "only"
+  },
+  {
+    "name": "シャルルマーニュ",
+    "days": "2022/11/13",
+    "class": "Saber",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "メドゥーサセイバー",
+    "days": "2023/7/5",
+    "class": "Archer",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ギルガメッシュ",
+    "days": "2023/7/2",
+    "class": "Archer",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "水着アルトリア",
+    "days": "2022/7/21",
+    "class": "Archer",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "only"
+  },
+  {
+    "name": "イシュタル",
+    "days": "2022/8/31",
+    "class": "Archer",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "モリアーティ",
+    "days": "2023/7/21",
+    "class": "Archer",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "水着ジャンヌ",
+    "days": "2022/7/25",
+    "class": "Archer",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "超人オリオン",
+    "days": "2022/9/28",
+    "class": "Archer",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "清少納言",
+    "days": "2023/2/21",
+    "class": "Archer",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "高杉晋作",
+    "days": "2023/3/17",
+    "class": "Archer",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ドゥルガー",
+    "days": "2023/6/25",
+    "class": "Archer",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "スカサハ",
+    "days": "2023/5/2",
+    "class": "Lancer",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "only"
+  },
+  {
+    "name": "ブリュンヒルデ",
+    "days": "2022/11/17",
+    "class": "Lancer",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "水着玉藻",
+    "days": "2022/4/20",
+    "class": "Lancer",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "エレシュキガル",
+    "days": "2023/2/13",
+    "class": "Lancer",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ロムルスクィリヌス",
+    "days": "2022/10/5",
+    "class": "Lancer",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "メリュジーヌ",
+    "days": "2022/12/9",
+    "class": "Lancer",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "only"
+  },
+  {
+    "name": "坂本龍馬(槍)",
+    "days": "2023/3/24",
+    "class": "Lancer",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ブリトマート",
+    "days": "2022/11/9",
+    "class": "Lancer",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "イスカンダル",
+    "days": "2022/1/6",
+    "class": "Rider",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "水着アルトリアオルタ",
+    "days": "2023/6/29",
+    "class": "Rider",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "only"
+  },
+  {
+    "name": "イヴァン雷帝",
+    "days": "2023/5/19",
+    "class": "Rider",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ライネス",
+    "days": "2023/1/8",
+    "class": "Rider",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "ダヴィンチ(騎)",
+    "days": "2023/7/23",
+    "class": "Rider",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "コンスタンティノス",
+    "days": "2022/5/18",
+    "class": "Rider",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "曲亭馬琴",
+    "days": "2023/7/7",
+    "class": "Rider",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ダヴィンチ",
+    "days": "2023/4/21",
+    "class": "Caster",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "イリヤ",
+    "days": "2023/5/26",
+    "class": "Caster",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "マーリン",
+    "days": "2023/3/27",
+    "class": "Caster",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "水着ネロ",
+    "days": "2023/6/1",
+    "class": "Caster",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "スカディ",
+    "days": "2023/7/3",
+    "class": "Caster",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "紫式部",
+    "days": "2023/2/22",
+    "class": "Caster",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "キャストリア",
+    "days": "2022/11/23",
+    "class": "Caster",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "ミスクレーン",
+    "days": "2023/7/12",
+    "class": "Caster",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "出雲阿国",
+    "days": "2021/9/21",
+    "class": "Caster",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "only"
+  },
+  {
+    "name": "謎のヒロインX",
+    "days": "2023/5/14",
+    "class": "Assassin",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "only"
+  },
+  {
+    "name": "酒呑童子",
+    "days": "2023/4/4",
+    "class": "Assassin",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "クレオパトラ",
+    "days": "2022/5/17",
+    "class": "Assassin",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "山の翁",
+    "days": "2023/4/23",
+    "class": "Assassin",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "セミラミス",
+    "days": "2023/2/23",
+    "class": "Assassin",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "カーマ",
+    "days": "2023/6/21",
+    "class": "Assassin",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "only"
+  },
+  {
+    "name": "光のコヤンスカヤ",
+    "days": "2022/12/19",
+    "class": "Assassin",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "呼延灼",
+    "days": "2023/7/9",
+    "class": "Assassin",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "テスカトリポカ",
+    "days": "2023/1/31",
+    "class": "Assassin",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "坂田金時",
+    "days": "2023/4/2",
+    "class": "Berserker",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "源頼光",
+    "days": "2023/4/10",
+    "class": "Berserker",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ヒロインXオルタ",
+    "days": "2023/2/24",
+    "class": "Berserker",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "only"
+  },
+  {
+    "name": "土方歳三",
+    "days": "2022/9/18",
+    "class": "Berserker",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "アルジュナオルタ",
+    "days": "2023/3/8",
+    "class": "Berserker",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "水着武蔵",
+    "days": "2022/8/7",
+    "class": "Berserker",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "モルガン",
+    "days": "2022/11/3",
+    "class": "Berserker",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "水着伊吹童子",
+    "days": "2022/8/14",
+    "class": "Berserker",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "千利休",
+    "days": "2022/9/14",
+    "class": "Berserker",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "天草四郎",
+    "days": "2023/3/11",
+    "class": "Ruler",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ホームズ",
+    "days": "2022/6/10",
+    "class": "Ruler",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "始皇帝",
+    "days": "2022/6/22",
+    "class": "Ruler",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "ルーラーアルトリア",
+    "days": "2022/7/27",
+    "class": "Ruler",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "卑弥呼",
+    "days": "2022/9/19",
+    "class": "Ruler",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "カレン",
+    "days": "2023/2/20",
+    "class": "Ruler",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "モリアーティ(裁)",
+    "days": "2022/12/21",
+    "class": "Ruler",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "水着スカディ",
+    "days": "2022/8/17",
+    "class": "Ruler",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ヨハンナ",
+    "days": "2023/2/17",
+    "class": "Ruler",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "水着BB",
+    "days": "2022/6/19",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "水着キアラ",
+    "days": "2022/7/28",
+    "class": "Extra",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "アルクェイド",
+    "days": "2022/7/31",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "巌窟王",
+    "days": "2023/3/23",
+    "class": "Extra",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ジャンヌオルタ",
+    "days": "2022/10/29",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "魔王信長",
+    "days": "2023/3/22",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "Sイシュタル",
+    "days": "2022/8/31",
+    "class": "Extra",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "平景清",
+    "days": "2022/1/5",
+    "class": "Extra",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "only"
+  },
+  {
+    "name": "水着カーマ",
+    "days": "2022/8/24",
+    "class": "Extra",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "メルトリリス",
+    "days": "2022/2/23",
+    "class": "Extra",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "only"
+  },
+  {
+    "name": "殺生院キアラ",
+    "days": "2022/7/17",
+    "class": "Extra",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "沖田オルタ",
+    "days": "2022/9/22",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "キングプロテア",
+    "days": "2023/1/4",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "蘆屋道満",
+    "days": "2022/8/10",
+    "class": "Extra",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "バゼット",
+    "days": "2023/2/19",
+    "class": "Extra",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "only"
+  },
+  {
+    "name": "スーパーバニヤン",
+    "days": "2022/4/27",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "ラスプーチン",
+    "days": "2023/1/1",
+    "class": "Extra",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ティアマト",
+    "days": "2023/4/19",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "オベロン",
+    "days": "2022/12/16",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "レディアヴァロン",
+    "days": "2023/4/29",
+    "class": "Extra",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "アビゲイル",
+    "days": "2022/11/27",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "only"
+  },
+  {
+    "name": "葛飾北斎",
+    "days": "2023/7/5",
+    "class": "Extra",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "all"
+  },
+  {
+    "name": "楊貴妃",
+    "days": "2022/5/14",
+    "class": "Extra",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "only"
+  },
+  {
+    "name": "ボイジャー",
+    "days": "2022/8/6",
+    "class": "Extra",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "水着アビゲイル",
+    "days": "2022/8/8",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ゴッホ",
+    "days": "2022/10/28",
+    "class": "Extra",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "buff"
+  },
+  {
+    "name": "ジャックドモレー",
+    "days": "2023/4/30",
+    "class": "Extra",
+    "NPcolor": "#267815",
+    "NPtype": "Quick",
+    "NPtarget": "all"
+  },
+  {
+    "name": "闇のコヤンスカヤ",
+    "days": "2023/1/9",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ククルカン",
+    "days": "2023/6/11",
+    "class": "Extra",
+    "NPcolor": "#a41818",
+    "NPtype": "Buster",
+    "NPtarget": "all"
+  },
+  {
+    "name": "ドラコー",
+    "days": "2023/4/26",
+    "class": "Extra",
+    "NPcolor": "#1640a3",
+    "NPtype": "Arts",
+    "NPtarget": "only"
+  }
+]
