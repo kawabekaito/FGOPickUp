@@ -3,8 +3,8 @@ import * as d3 from 'd3';
 
 
 const BarChart = ({ data }) => {
-  const Width = 1430;
-  const Height = 600;
+  const Width = 1400;
+  const Height = 500;
   const margin = {
     top: 20,
     right: 45,
@@ -49,13 +49,13 @@ const BarChart = ({ data }) => {
 
   const bars = sortedData.map((d, index) => (
     <g key={index}>
-      <rect x={barWidth * index + padding * index} y={yScale(d.days)} width={barWidth} height={chartHeight - yScale(d.days)} fill={d.NPcolor} className="barRect" />
+      <rect x={barWidth * index + padding * index } y={yScale(d.days)} width={barWidth} height={chartHeight - yScale(d.days)} fill={d.NPcolor} className="barRect" />
       <text
-        x={barWidth * index + padding * index + barMargin}
+        x={barWidth * index + padding * index + barMargin }
         y={chartHeight + 8}
         textAnchor="start"
         alignmentBaseline="middle"
-        transform={`rotate(60,${barWidth * index + padding * index + barMargin},${chartHeight + 10})`}
+        transform={`rotate(60,${barWidth * index + padding * index + barMargin },${chartHeight + 10})`}
         style={{ fontSize: "10px" }}
       >
         {d.name}
@@ -91,7 +91,7 @@ const BarChart = ({ data }) => {
 
         <g>
           <g>
-            <g transform={`translate(0, ${chartHeight})`} ref={(node) => d3.select(node).call(d3.axisBottom(xScale).tickFormat("").tickSize(1))} />
+            <g transform={`translate(0, ${chartHeight})`} ref={(node) => d3.select(node).call(d3.axisBottom(xScale).tickFormat("").tickSize(1) )} />
             <text
               transform={`translate(${chartWidth / 2}, ${Height - margin.bottom + 90})`}
               textAnchor="middle"

@@ -175,8 +175,7 @@ const App = () => {
         </header>
         
           <div className="container">
-
-            <div >
+            <div className="class">
               <h3 className="checkName">クラス</h3>
               {optionsClass.map((option) => (
                 <label key={option.value} style={{ marginRight: "10px" }}>

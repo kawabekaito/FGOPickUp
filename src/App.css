@@ -7,7 +7,7 @@ label {
 }
 
 .checkName{
-  font-size: large;
+  font-size: 26px;
 }
 
 .checkbox-square {
@@ -19,11 +19,18 @@ label {
 }
 
 
+.class{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .hougu {
   display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .type {
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
