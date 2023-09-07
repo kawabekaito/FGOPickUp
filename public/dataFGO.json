@@ -5,7 +5,7 @@
     "class": "Saber",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "ネロブライド",
@@ -13,7 +13,7 @@
     "class": "Saber",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "両儀式(剣)",
@@ -21,7 +21,7 @@
     "class": "Saber",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "宮本武蔵",
@@ -29,7 +29,7 @@
     "class": "Saber",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "アーサー",
@@ -37,7 +37,7 @@
     "class": "Saber",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "シグルド",
@@ -45,7 +45,7 @@
     "class": "Saber",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "紅閻魔",
@@ -53,7 +53,7 @@
     "class": "Saber",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "アストルフォ(剣)",
@@ -61,7 +61,7 @@
     "class": "Saber",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "伊吹童子",
@@ -69,7 +69,7 @@
     "class": "Saber",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "千子村正",
@@ -77,7 +77,7 @@
     "class": "Saber",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "水着沖田オルタ",
@@ -85,7 +85,7 @@
     "class": "Saber",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "徴姉妹",
@@ -93,7 +93,7 @@
     "class": "Saber",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "シャルルマーニュ",
@@ -101,7 +101,7 @@
     "class": "Saber",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "メドゥーサセイバー",
@@ -109,7 +109,7 @@
     "class": "Archer",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ギルガメッシュ",
@@ -117,7 +117,7 @@
     "class": "Archer",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "水着アルトリア",
@@ -125,7 +125,7 @@
     "class": "Archer",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "イシュタル",
@@ -133,7 +133,7 @@
     "class": "Archer",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "モリアーティ",
@@ -141,7 +141,7 @@
     "class": "Archer",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "水着ジャンヌ",
@@ -149,7 +149,7 @@
     "class": "Archer",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "超人オリオン",
@@ -157,7 +157,7 @@
     "class": "Archer",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "清少納言",
@@ -165,7 +165,7 @@
     "class": "Archer",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "高杉晋作",
@@ -173,7 +173,7 @@
     "class": "Archer",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ドゥルガー",
@@ -181,7 +181,7 @@
     "class": "Archer",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "スカサハ",
@@ -189,7 +189,7 @@
     "class": "Lancer",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "ブリュンヒルデ",
@@ -197,7 +197,7 @@
     "class": "Lancer",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "水着玉藻",
@@ -205,7 +205,7 @@
     "class": "Lancer",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "エレシュキガル",
@@ -213,7 +213,7 @@
     "class": "Lancer",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ロムルスクィリヌス",
@@ -221,7 +221,7 @@
     "class": "Lancer",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "メリュジーヌ",
@@ -229,7 +229,7 @@
     "class": "Lancer",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "坂本龍馬(槍)",
@@ -237,7 +237,7 @@
     "class": "Lancer",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ブリトマート",
@@ -245,7 +245,7 @@
     "class": "Lancer",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "イスカンダル",
@@ -253,7 +253,7 @@
     "class": "Rider",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "水着アルトリアオルタ",
@@ -261,7 +261,7 @@
     "class": "Rider",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "イヴァン雷帝",
@@ -269,7 +269,7 @@
     "class": "Rider",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ライネス",
@@ -277,7 +277,7 @@
     "class": "Rider",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "ダヴィンチ(騎)",
@@ -285,7 +285,7 @@
     "class": "Rider",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "コンスタンティノス",
@@ -293,7 +293,7 @@
     "class": "Rider",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "曲亭馬琴",
@@ -301,7 +301,7 @@
     "class": "Rider",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ダヴィンチ",
@@ -309,7 +309,7 @@
     "class": "Caster",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "イリヤ",
@@ -317,7 +317,7 @@
     "class": "Caster",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "マーリン",
@@ -325,7 +325,7 @@
     "class": "Caster",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "水着ネロ",
@@ -333,7 +333,7 @@
     "class": "Caster",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "スカディ",
@@ -341,7 +341,7 @@
     "class": "Caster",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "紫式部",
@@ -349,7 +349,7 @@
     "class": "Caster",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "キャストリア",
@@ -357,7 +357,7 @@
     "class": "Caster",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "ミスクレーン",
@@ -365,15 +365,15 @@
     "class": "Caster",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "出雲阿国",
-    "days": "2021/9/21",
+    "days": "2022/9/21",
     "class": "Caster",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "謎のヒロインX",
@@ -381,7 +381,7 @@
     "class": "Assassin",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "酒呑童子",
@@ -389,7 +389,7 @@
     "class": "Assassin",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "クレオパトラ",
@@ -397,7 +397,7 @@
     "class": "Assassin",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "山の翁",
@@ -405,7 +405,7 @@
     "class": "Assassin",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "セミラミス",
@@ -413,7 +413,7 @@
     "class": "Assassin",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "カーマ",
@@ -421,7 +421,7 @@
     "class": "Assassin",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "光のコヤンスカヤ",
@@ -429,7 +429,7 @@
     "class": "Assassin",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "呼延灼",
@@ -437,7 +437,7 @@
     "class": "Assassin",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "テスカトリポカ",
@@ -445,7 +445,7 @@
     "class": "Assassin",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "坂田金時",
@@ -453,7 +453,7 @@
     "class": "Berserker",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "源頼光",
@@ -461,7 +461,7 @@
     "class": "Berserker",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ヒロインXオルタ",
@@ -469,7 +469,7 @@
     "class": "Berserker",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "土方歳三",
@@ -477,7 +477,7 @@
     "class": "Berserker",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "アルジュナオルタ",
@@ -485,7 +485,7 @@
     "class": "Berserker",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "水着武蔵",
@@ -493,7 +493,7 @@
     "class": "Berserker",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "モルガン",
@@ -501,7 +501,7 @@
     "class": "Berserker",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "水着伊吹童子",
@@ -509,7 +509,7 @@
     "class": "Berserker",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "千利休",
@@ -517,7 +517,7 @@
     "class": "Berserker",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "天草四郎",
@@ -525,7 +525,7 @@
     "class": "Ruler",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ホームズ",
@@ -533,7 +533,7 @@
     "class": "Ruler",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "始皇帝",
@@ -541,7 +541,7 @@
     "class": "Ruler",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "ルーラーアルトリア",
@@ -549,7 +549,7 @@
     "class": "Ruler",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "卑弥呼",
@@ -557,7 +557,7 @@
     "class": "Ruler",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "カレン",
@@ -565,7 +565,7 @@
     "class": "Ruler",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "モリアーティ(裁)",
@@ -573,7 +573,7 @@
     "class": "Ruler",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "水着スカディ",
@@ -581,7 +581,7 @@
     "class": "Ruler",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ヨハンナ",
@@ -589,7 +589,7 @@
     "class": "Ruler",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "水着BB",
@@ -597,7 +597,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "水着キアラ",
@@ -605,7 +605,7 @@
     "class": "Extra",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "アルクェイド",
@@ -613,7 +613,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "巌窟王",
@@ -621,7 +621,7 @@
     "class": "Extra",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ジャンヌオルタ",
@@ -629,7 +629,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "魔王信長",
@@ -637,7 +637,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "Sイシュタル",
@@ -645,7 +645,7 @@
     "class": "Extra",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "平景清",
@@ -653,7 +653,7 @@
     "class": "Extra",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "水着カーマ",
@@ -661,7 +661,7 @@
     "class": "Extra",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "メルトリリス",
@@ -669,7 +669,7 @@
     "class": "Extra",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "殺生院キアラ",
@@ -677,7 +677,7 @@
     "class": "Extra",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "沖田オルタ",
@@ -685,7 +685,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "キングプロテア",
@@ -693,7 +693,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "蘆屋道満",
@@ -701,7 +701,7 @@
     "class": "Extra",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "バゼット",
@@ -709,7 +709,7 @@
     "class": "Extra",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "スーパーバニヤン",
@@ -717,7 +717,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "ラスプーチン",
@@ -725,7 +725,7 @@
     "class": "Extra",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ティアマト",
@@ -733,7 +733,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "オベロン",
@@ -741,7 +741,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "レディアヴァロン",
@@ -749,7 +749,7 @@
     "class": "Extra",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "アビゲイル",
@@ -757,7 +757,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "葛飾北斎",
@@ -765,7 +765,7 @@
     "class": "Extra",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "楊貴妃",
@@ -773,7 +773,7 @@
     "class": "Extra",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "only"
+    "NPeffect": "only"
   },
   {
     "name": "ボイジャー",
@@ -781,7 +781,7 @@
     "class": "Extra",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "水着アビゲイル",
@@ -789,7 +789,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ゴッホ",
@@ -797,7 +797,7 @@
     "class": "Extra",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "buff"
+    "NPeffect": "support"
   },
   {
     "name": "ジャックドモレー",
@@ -805,7 +805,7 @@
     "class": "Extra",
     "NPcolor": "#267815",
     "NPtype": "Quick",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "闇のコヤンスカヤ",
@@ -813,7 +813,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ククルカン",
@@ -821,7 +821,7 @@
     "class": "Extra",
     "NPcolor": "#a41818",
     "NPtype": "Buster",
-    "NPtarget": "all"
+    "NPeffect": "all"
   },
   {
     "name": "ドラコー",
@@ -829,6 +829,6 @@
     "class": "Extra",
     "NPcolor": "#1640a3",
     "NPtype": "Arts",
-    "NPtarget": "only"
+    "NPeffect": "only"
   }
 ]
