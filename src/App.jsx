@@ -31,10 +31,14 @@ const App = () => {
   const optionsNPEffect = [
     { value: "all", label: "all" },
     { value: "only", label: "only" },
-    { value: "buff", label: "buff" }
+    { value: "support", label: "support" }
   ];
 
-
+  const optionsNPType = [
+    { value: "Buster", label: "Buster" },
+    { value: "Arts", label: "Arts" },
+    { value: "Quick", label: "Quick" }
+  ];
 
 
   // チェックボックスの状態を管理するやつ
@@ -42,18 +46,22 @@ const App = () => {
     optionsClass.map((option) => [option.value, false])
   );
 
-  const NPChekedState = Object.fromEntries(
+  const NPEffectChekedState = Object.fromEntries(
     optionsNPEffect.map((option) => [option.value, false])
   );
 
+  const NPTypeState = Object.fromEntries(
+    optionsNPType.map((option) => [option.value, false])
+  );
 
   //console.log(ClassCheckedState);
   const [classChecked, setClassChecked] = useState(ClassCheckedState);
-  const [NPChecked, setNPCheked] = useState(NPChekedState);
+  const [NPEffectChecked, setNPEffectCheked] = useState(NPEffectChekedState);
+  const [NPTypeChecked, setNPTypeChecked] = useState(NPTypeState);
 
   //console.log(classChecked);
-  //console.log(NPChecked);
-
+  //console.log(NPEffectChecked);
+  //console.log(NPTypeChecked);
 
   const handleCheckboxChange = (event) => {
     const value = event.target.value;
@@ -67,14 +75,19 @@ const App = () => {
         [value]: isChecked
       }));
     } else if (optionsNPEffect.find((item) => item.value === value)) {
-      setNPCheked((prevState) => ({
+      setNPEffectCheked((prevState) => ({
+        ...prevState,
+        [value]: isChecked
+      }));
+    } else if (optionsNPType.find((item) => item.value === value)){
+      setNPTypeChecked((prevState) => ({
         ...prevState,
         [value]: isChecked
       }));
     }
-
   };
 
+  console.log(NPTypeChecked);
 
   const parseDate = (dateString) => {
     const [year, month, day] = dateString.split('/').map(Number);
@@ -112,18 +125,33 @@ const App = () => {
   // チェックボックスからフィルタリング
   const filterData = () => {
     const selectedClasses = optionsClass.filter((item) => classChecked[item.value]).map((item) => item.value);
-    const selectedNPTarget = optionsNPEffect.filter((item) => NPChecked[item.value]).map((item) => item.value);
+    const selectedNPEffect = optionsNPEffect.filter((item) => NPEffectChecked[item.value]).map((item) => item.value);
+    const selectedNPType = optionsNPType.filter((item) => NPTypeChecked[item.value]).map((item) => item.value);
+    //console.log(selectedClasses);
 
-    if (selectedClasses.length === 0 && selectedNPTarget.length === 0) {
+    if (selectedClasses.length === 0 && selectedNPEffect.length === 0 && selectedNPType.length === 0) {
       return calculatedData;
-    } else if (selectedClasses.length > 0 && selectedNPTarget.length === 0) {
+    } else if (selectedClasses.length > 0 && selectedNPEffect.length === 0 && selectedNPType.length === 0) {
 
       return calculatedData.filter((d) => selectedClasses.includes(d.class));
-    } else if (selectedClasses.length === 0 && selectedNPTarget.length > 0) {
-      console.log(calculatedData.filter((d) => selectedNPTarget.includes(d.NPtarget)));
-      return calculatedData.filter((d) => selectedNPTarget.includes(d.NPtarget));
+
+    } else if(selectedClasses.length > 0 && selectedNPEffect.length > 0 && selectedNPType.length === 0){
+      return calculatedData.filter((d) => selectedClasses.includes(d.class) && selectedNPEffect.includes(d.NPeffect));
+
+    } else if (selectedClasses.length > 0 && selectedNPEffect.length === 0 && selectedNPType.length > 0){
+      return calculatedData.filter((d) => selectedClasses.includes(d.class) && selectedNPEffect.includes(d.NPtype));
+    } else if (selectedClasses.length === 0 && selectedNPEffect.length > 0 && selectedNPType.length === 0) {
+
+      return calculatedData.filter((d) => selectedNPEffect.includes(d.NPeffect));
+    } else if (selectedClasses.length === 0 && selectedNPEffect.length > 0 && selectedNPType.length > 0) {
+
+      return calculatedData.filter((d) => selectedNPEffect.includes(d.NPeffect) && selectedNPType.includes(d.NPtype));
+    } else if (selectedClasses.length === 0 && selectedNPEffect.length === 0 && selectedNPType.length > 0) {
+
+      return calculatedData.filter((d) => selectedNPType.includes(d.NPtype));
     } else {
-      return calculatedData.filter((d) => selectedClasses.includes(d.class) && selectedNPTarget.includes(d.NPtarget));
+
+      return calculatedData.filter((d) => selectedClasses.includes(d.class) && selectedNPEffect.includes(d.NPeffect) && selectedNPType.includes(d.NPtype));
     }
 
   };
@@ -162,7 +190,22 @@ const App = () => {
               <input
                 type="checkbox"
                 value={option.value}
-                checked={NPChecked[option.value]}
+                checked={NPEffectChecked[option.value]}
+                onChange={handleCheckboxChange}
+              />
+              {option.label}
+            </label>
+          ))}
+        </div>
+
+        <div>
+          <h3>カードタイプ</h3>
+          {optionsNPType.map((option) => (
+            <label key={option.value} style={{ marginRight: "10px" }} >
+              <input
+                type="checkbox"
+                value={option.value}
+                checked={NPTypeChecked[option.value]}
                 onChange={handleCheckboxChange}
               />
               {option.label}
