@@ -6,6 +6,9 @@ label {
   user-select: none;
 }
 
+.checkName{
+  font-size: large;
+}
 
 .checkbox-square {
   width: 13px;
@@ -16,17 +19,11 @@ label {
 }
 
 
-.checkbox-square[value="Buster"] {
-  background-color: #a41818;
+.hougu {
+  display: flex;
 }
 
-
-.checkbox-square[value="Arts"] {
-  background-color: #1640a3;
-}
-
-
-.checkbox-square[value="Quick"] {
-  background-color: #267815;
+.type {
+  padding-left: 20px;
 }
 

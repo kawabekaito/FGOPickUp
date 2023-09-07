@@ -4,12 +4,12 @@ import * as d3 from 'd3';
 
 const BarChart = ({ data }) => {
   const Width = 1430;
-  const Height = 650;
+  const Height = 600;
   const margin = {
     top: 20,
-    right: 50,
+    right: 45,
     bottom: 150,
-    left: 100,
+    left: 80,
   };
   const chartWidth = Width - margin.left - margin.right;
   const chartHeight = Height - margin.top - margin.bottom;
@@ -64,14 +64,14 @@ const BarChart = ({ data }) => {
   ));
 
   const legendData = [
-    { label: "Buster", color: "#a41818" },
-    { label: "Arts", color: "#1640a3" },
-    { label: "Quick", color: "#267815" },
+    { label: "Buster", color: "#ed9b40" },
+    { label: "Arts", color: "#4d82db" },
+    { label: "Quick", color: "#49a078" },
   ];
 
   const legend = legendData.map((d, index) => (
     <g key={index} transform={`translate(${chartWidth - 100}, ${index * 20})`}>
-      <rect x={0} y={-10} width={10} height={10} fill={d.color} />
+      <rect x={0} y={-10} width={10} height={10} fill={`${d.color}`} />
       <text x={15} y={0} style={{ fontSize: "15px" }}>{d.label}</text>
     </g>
   ));
@@ -93,7 +93,7 @@ const BarChart = ({ data }) => {
           <g>
             <g transform={`translate(0, ${chartHeight})`} ref={(node) => d3.select(node).call(d3.axisBottom(xScale).tickFormat("").tickSize(1))} />
             <text
-              transform={`translate(${chartWidth / 2}, ${Height - margin.bottom + 130})`}
+              transform={`translate(${chartWidth / 2}, ${Height - margin.bottom + 90})`}
               textAnchor="middle"
             >
               Servant

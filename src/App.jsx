@@ -2,6 +2,8 @@ import "./App.css"
 
 import React, { useState, useEffect } from 'react';
 import BarChart from "./components/BarChart";
+import "bulma/css/bulma.css";
+
 const App = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
@@ -79,7 +81,7 @@ const App = () => {
         ...prevState,
         [value]: isChecked
       }));
-    } else if (optionsNPType.find((item) => item.value === value)){
+    } else if (optionsNPType.find((item) => item.value === value)) {
       setNPTypeChecked((prevState) => ({
         ...prevState,
         [value]: isChecked
@@ -135,10 +137,10 @@ const App = () => {
 
       return calculatedData.filter((d) => selectedClasses.includes(d.class));
 
-    } else if(selectedClasses.length > 0 && selectedNPEffect.length > 0 && selectedNPType.length === 0){
+    } else if (selectedClasses.length > 0 && selectedNPEffect.length > 0 && selectedNPType.length === 0) {
       return calculatedData.filter((d) => selectedClasses.includes(d.class) && selectedNPEffect.includes(d.NPeffect));
 
-    } else if (selectedClasses.length > 0 && selectedNPEffect.length === 0 && selectedNPType.length > 0){
+    } else if (selectedClasses.length > 0 && selectedNPEffect.length === 0 && selectedNPType.length > 0) {
       return calculatedData.filter((d) => selectedClasses.includes(d.class) && selectedNPType.includes(d.NPtype));
     } else if (selectedClasses.length === 0 && selectedNPEffect.length > 0 && selectedNPType.length === 0) {
 
@@ -164,59 +166,71 @@ const App = () => {
 
   return (
     <div >
-      <h1>FGO don't PickUp</h1>
-      <div >
-        <div>
-          <h3>クラス</h3>
-          {optionsClass.map((option) => (
-            <label key={option.value} style={{ marginRight: "10px" }}>
-              <input
-                type="checkbox"
-                value={option.value}
-                checked={classChecked[option.value]}
-                onChange={handleCheckboxChange}
-              />
-              {option.label}
+        <header className="hero is-dark is-bold">
+          <div className="hero-body">
+            <div className="container">
+              <h1 className="title">FGO don't PickUp</h1>
+            </div>
+          </div>
+        </header>
+        
+          <div className="container">
 
-            </label>
-          ))}
-        </div>
+            <div >
+              <h3 className="checkName">クラス</h3>
+              {optionsClass.map((option) => (
+                <label key={option.value} style={{ marginRight: "10px" }}>
+                  <input
+                    type="checkbox"
+                    value={option.value}
+                    checked={classChecked[option.value]}
+                    onChange={handleCheckboxChange}
+                  />
+                  {option.label}
 
+                </label>
+              ))}
+            </div>
 
-        <div>
-          <h3>宝具種類</h3>
-          {optionsNPEffect.map((option) => (
-            <label key={option.value} style={{ marginRight: "10px" }} >
-              <input
-                type="checkbox"
-                value={option.value}
-                checked={NPEffectChecked[option.value]}
-                onChange={handleCheckboxChange}
-              />
-              {option.label}
-            </label>
-          ))}
-          
-        </div>
+            <div className="hougu">
 
-        <div>
-          <h3>宝具カードタイプ</h3>
-          {optionsNPType.map((option) => (
-            <label key={option.value} style={{ marginRight: "10px" }} >
-              <input
-                type="checkbox"
-                value={option.value}
-                checked={NPTypeChecked[option.value]}
-                onChange={handleCheckboxChange}
-              />
-              {option.label}
-            </label>
-          ))}
-        </div>
+              <div>
+                <h3 className="checkName">宝具種類</h3>
+                {optionsNPEffect.map((option) => (
+                  <label key={option.value} style={{ marginRight: "10px" }} >
+                    <input
+                      type="checkbox"
+                      value={option.value}
+                      checked={NPEffectChecked[option.value]}
+                      onChange={handleCheckboxChange}
+                    />
+                    {option.label}
+                  </label>
+                ))}
 
+              </div>
+
+              <div className="type">
+                <h3 className="checkName">宝具カードタイプ</h3>
+                {optionsNPType.map((option) => (
+                  <label key={option.value} style={{ marginRight: "10px" }} >
+                    <input
+                      type="checkbox"
+                      value={option.value}
+                      checked={NPTypeChecked[option.value]}
+                      onChange={handleCheckboxChange}
+                    />
+                    {option.label}
+                  </label>
+                ))}
+              </div>
+            </div>
+          </div>
+        
+        {<BarChart data={filteredData} />}
+        
       </div>
-      {<BarChart data={filteredData} />}
-    </div>
+    
   );
 };
 
