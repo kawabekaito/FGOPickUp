@@ -14,6 +14,9 @@ const BarChart = ({ data }) => {
   const chartWidth = Width - margin.left - margin.right;
   const chartHeight = Height - margin.top - margin.bottom;
 
+
+  //console.log(chartWidth);
+
   const sortedData = data.slice().sort((a, b) => {
     return b.days - a.days;
   });
@@ -26,24 +29,39 @@ const BarChart = ({ data }) => {
 
   yScale.domain([0, d3.max(sortedData, (d) => d.days)]);
 
+  //console.log(xScale.bandwidth());
+
+
+  var barWidth = xScale.bandwidth();
+  var padding = chartWidth / data.length / 10;
+  var barMargin;
+
+  console.log(data.length);
+
+  if (data.length < 90) {
+    barMargin = 10;
+  } else {
+    barMargin = 0;
+  }
+  if (barWidth > 40) {
+    barWidth = 40;
+  }
+
   const bars = sortedData.map((d, index) => (
-    <g transform={`translate(${xScale(d.name)}, 0)`} key={index}>
-      <rect x={0} y={yScale(d.days)} width={xScale.bandwidth()} height={chartHeight - yScale(d.days)} fill={d.NPcolor} className="barRect" />
-
-
+    <g key={index}>
+      <rect x={barWidth * index + padding * index} y={yScale(d.days)} width={barWidth} height={chartHeight - yScale(d.days)} fill={d.NPcolor} className="barRect" />
       <text
-        x={xScale.bandwidth() / 2 + 15}
-        y={chartHeight + 20}
-        textAnchor="end"
+        x={barWidth * index + padding * index + barMargin}
+        y={chartHeight + 8}
+        textAnchor="start"
         alignmentBaseline="middle"
-        transform={`rotate(-90, ${xScale.bandwidth() / 2}, ${chartHeight + 20})`}
-        style={{ fontSize: "12px" }}
+        transform={`rotate(60,${barWidth * index + padding * index + barMargin},${chartHeight + 10})`}
+        style={{ fontSize: "10px" }}
       >
         {d.name}
       </text>
     </g>
   ));
-
 
   const legendData = [
     { label: "Buster", color: "#a41818" },
@@ -63,23 +81,34 @@ const BarChart = ({ data }) => {
   return (
     <svg width={Width} height={Height}>
       <g transform={`translate(${margin.left}, ${margin.top})`}>
-        {bars}
-        <g transform={`translate(0, ${chartHeight})`} ref={(node) => d3.select(node).call(d3.axisBottom(xScale).tickFormat("").tickSize(1))} />
-        <text
-          transform={`translate(${chartWidth / 2}, ${Height - margin.bottom + 130})`} // x軸ラベルの位置を変更
-          textAnchor="middle"
-        >
-          Servant
-        </text>
+        {data.length == 0 ? <g><text
+          x={`${chartWidth / 2}`}
+          y={`${chartHeight / 2}`}
+          font-size="100px" 
+          textAnchor='middle'>
+          No Data
+        </text></g> : <g>{bars}</g>}
 
-        <g ref={(node) => d3.select(node).call(yAxis)} />
-        <text
-          transform={`translate(-50, ${chartHeight / 2}) rotate(-90)`}
-          textAnchor="middle"
-        >
-          days
-        </text>
-
+        <g>
+          <g>
+            <g transform={`translate(0, ${chartHeight})`} ref={(node) => d3.select(node).call(d3.axisBottom(xScale).tickFormat("").tickSize(1))} />
+            <text
+              transform={`translate(${chartWidth / 2}, ${Height - margin.bottom + 130})`}
+              textAnchor="middle"
+            >
+              Servant
+            </text>
+          </g>
+          <g>
+            <g ref={(node) => d3.select(node).call(yAxis)} />
+            <text
+              transform={`translate(-50, ${chartHeight / 2}) rotate(-90)`}
+              textAnchor="middle"
+            >
+              days
+            </text>
+          </g>
+        </g>
         <g>{legend}</g>
       </g>
     </svg>

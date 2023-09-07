@@ -14,7 +14,7 @@ const App = () => {
   }, []);
 
 
-  console.log(data);
+  //console.log(data);
 
   const optionsClass = [
     { value: "Saber", label: "Saber" },
@@ -87,7 +87,7 @@ const App = () => {
     }
   };
 
-  console.log(NPTypeChecked);
+  //console.log(NPTypeChecked);
 
   const parseDate = (dateString) => {
     const [year, month, day] = dateString.split('/').map(Number);
@@ -116,7 +116,7 @@ const App = () => {
   useEffect(() => {
     if (data) {
       const a = calculateDaysFromToday(data)
-      console.log(a);
+      //console.log(a);
       setCalculatedData(a);
     }
   }, [data]);
@@ -139,7 +139,7 @@ const App = () => {
       return calculatedData.filter((d) => selectedClasses.includes(d.class) && selectedNPEffect.includes(d.NPeffect));
 
     } else if (selectedClasses.length > 0 && selectedNPEffect.length === 0 && selectedNPType.length > 0){
-      return calculatedData.filter((d) => selectedClasses.includes(d.class) && selectedNPEffect.includes(d.NPtype));
+      return calculatedData.filter((d) => selectedClasses.includes(d.class) && selectedNPType.includes(d.NPtype));
     } else if (selectedClasses.length === 0 && selectedNPEffect.length > 0 && selectedNPType.length === 0) {
 
       return calculatedData.filter((d) => selectedNPEffect.includes(d.NPeffect));
@@ -158,8 +158,8 @@ const App = () => {
 
 
   const filteredData = filterData();
-  console.log(filteredData);
-  console.log(calculatedData);
+  //console.log(filteredData);
+  //console.log(calculatedData);
 
 
   return (
@@ -184,7 +184,7 @@ const App = () => {
 
 
         <div>
-          <h3>宝具タイプ</h3>
+          <h3>宝具種類</h3>
           {optionsNPEffect.map((option) => (
             <label key={option.value} style={{ marginRight: "10px" }} >
               <input
@@ -196,10 +196,11 @@ const App = () => {
               {option.label}
             </label>
           ))}
+          
         </div>
 
         <div>
-          <h3>カードタイプ</h3>
+          <h3>宝具カードタイプ</h3>
           {optionsNPType.map((option) => (
             <label key={option.value} style={{ marginRight: "10px" }} >
               <input
@@ -214,7 +215,6 @@ const App = () => {
         </div>
 
       </div>
-
       {<BarChart data={filteredData} />}
     </div>
   );
