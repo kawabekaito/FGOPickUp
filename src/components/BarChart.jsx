@@ -14,29 +14,18 @@ const BarChart = ({ data }) => {
   const chartWidth = Width - margin.left - margin.right;
   const chartHeight = Height - margin.top - margin.bottom;
 
-
-  //console.log(chartWidth);
-
   const sortedData = data.slice().sort((a, b) => {
     return b.days - a.days;
   });
 
   const xScale = d3.scaleBand().range([0, chartWidth]).padding(0.1);
-
   xScale.domain(sortedData.map((d) => d.name));
-
   const yScale = d3.scaleLinear().range([chartHeight, 0]);
-
   yScale.domain([0, d3.max(sortedData, (d) => d.days)]);
-
-  //console.log(xScale.bandwidth());
-
 
   var barWidth = xScale.bandwidth();
   var padding = chartWidth / data.length / 10;
   var barMargin;
-
-  console.log(data.length);
 
   if (data.length < 90) {
     barMargin = 10;
