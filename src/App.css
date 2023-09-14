@@ -1,5 +1,6 @@
-text {
+#text {
   user-select: none;
+  margin-right: 10px;
 }
 
 label {
@@ -23,6 +24,7 @@ label {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 
 .NobelPhantasm {
   display: flex;

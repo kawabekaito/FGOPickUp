@@ -16,7 +16,7 @@ const App = () => {
   }, []);
 
 
-  
+
 
   const optionsClass = [
     { value: "Saber", label: "Saber" },
@@ -31,9 +31,9 @@ const App = () => {
   ];
 
   const optionsNPEffect = [
-    { value: "all", label: "all" },
-    { value: "only", label: "only" },
-    { value: "support", label: "support" }
+    { value: "all", label: "All" },
+    { value: "only", label: "Only" },
+    { value: "support", label: "Support" }
   ];
 
   const optionsNPType = [
@@ -43,7 +43,7 @@ const App = () => {
   ];
 
 
-  
+
   const ClassCheckedState = Object.fromEntries(
     optionsClass.map((option) => [option.value, false])
   );
@@ -92,10 +92,10 @@ const App = () => {
 
 
   const calculateDaysFromToday = (data) => {
-    const today = new Date(); 
+    const today = new Date();
     return data.map((d) => {
-      const date = parseDate(d.days); 
-      const timeDiff = today - date; 
+      const date = parseDate(d.days);
+      const timeDiff = today - date;
       const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
       return {
         ...d,
@@ -150,7 +150,7 @@ const App = () => {
 
   const filteredData = filterData();
 
-  
+
 
   return (
     <div >
@@ -169,18 +169,21 @@ const App = () => {
             <label key={option.value} style={{ marginRight: "10px" }}>
               <input
                 type="checkbox"
+                style={{ marginRight: "5px" }}
                 value={option.value}
                 checked={classChecked[option.value]}
                 onChange={handleCheckboxChange}
               />
+
               {option.label}
+
 
             </label>
           ))}
         </div>
-        
-        
-        
+
+
+
         <div className="NobelPhantasm">
 
           <div>
@@ -189,11 +192,15 @@ const App = () => {
               <label key={option.value} style={{ marginRight: "10px" }} >
                 <input
                   type="checkbox"
+                  style={{ marginRight: "5px" }}
                   value={option.value}
                   checked={NPEffectChecked[option.value]}
                   onChange={handleCheckboxChange}
+
                 />
+
                 {option.label}
+
               </label>
             ))}
 
@@ -205,6 +212,7 @@ const App = () => {
               <label key={option.value} style={{ marginRight: "10px" }} >
                 <input
                   type="checkbox"
+                  style={{ marginRight: "5px" }}
                   value={option.value}
                   checked={NPTypeChecked[option.value]}
                   onChange={handleCheckboxChange}
